@@ -1,0 +1,40 @@
+{
+  "name": "raknet",
+  "version": "1.8.0",
+  "description": "RakNet implementation in JavaScript for Node",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard **/*.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "raknet",
+    "protocol"
+  ],
+  "author": "mhsjlw",
+  "contributors": [
+    "rom1504 <romain.rom1@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "lodash.merge": "^4.6.1",
+    "protodef": "^1.14.0",
+    "split-buffer": "^1.0.0"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhsjlw/node-raknet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhsjlw/node-raknet/issues"
+  },
+  "homepage": "https://github.com/mhsjlw/node-raknet#readme",
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "standard": "^11.0.1"
+  }
+}
