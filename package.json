@@ -1,7 +1,7 @@
 {
-  "name": "raknet",
-  "version": "1.8.0",
-  "description": "RakNet implementation in JavaScript for Node",
+  "name": "raknet-rewrite",
+  "version": "1.0.0",
+  "description": "(Rewritten) RakNet implementation in JavaScript for Node",
   "main": "index.js",
   "scripts": {
     "lint": "standard **/*.js",
@@ -9,12 +9,10 @@
   },
   "keywords": [
     "raknet",
-    "protocol"
+    "protocol",
+    "rewrite"
   ],
-  "author": "mhsjlw",
-  "contributors": [
-    "rom1504 <romain.rom1@gmail.com>"
-  ],
+  "author": "gabe4278",
   "license": "MIT",
   "dependencies": {
     "debug": "^3.1.0",
@@ -27,12 +25,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mhsjlw/node-raknet.git"
+    "url": "git+https://github.com/gabe4278/node-raknet-rewrite.git"
   },
-  "bugs": {
-    "url": "https://github.com/mhsjlw/node-raknet/issues"
-  },
-  "homepage": "https://github.com/mhsjlw/node-raknet#readme",
+  "homepage": "https://github.com/gabe4278/node-raknet-rewrite#readme",
   "devDependencies": {
     "jest": "^22.4.3",
     "standard": "^11.0.1"
