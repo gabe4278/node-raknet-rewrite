@@ -3,7 +3,9 @@ RakNet [![NPM version](https://img.shields.io/npm/v/raknet.svg)](http://npmjs.co
 
 > This project is not affiliated with Jenkins Software LLC nor RakNet.
 
-RakNet implementation in JavaScript for Node
+(Rewritten) RakNet implementation in JavaScript for Node
+
+[Original repository](https://github.com/mhsjlw/node-raknet)
 
 ## Credits
 - [RakLib](https://github.com/pmmp/RakLib) for their protocol implementation and RakNet logic
