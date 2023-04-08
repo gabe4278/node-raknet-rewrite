@@ -36,7 +36,7 @@ function createClient (options) {
   function onConnect () {
     client.write('open_connection_request_1', {
       magic: 0,
-      protocol: 10,
+      protocol: 11,
       mtuSize: Buffer.alloc(mtuSize - 46)
     })
 
